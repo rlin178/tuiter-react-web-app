@@ -9,14 +9,17 @@
     <h1>Tuiter</h1>
     <h2>Tuit</h2>
 
+    <!--User profile picture-->
     <img width="48px" height="48px"
          src="https://ovicio.com.br/wp-content/uploads/2022/06/20220616-20220616_200814-555x555.jpg"/>
 
+    <!--Tuit text entry-->
     <form id="textarea">
         <textarea placeholder="What's happening?"></textarea>
     </form>
 
-    <select id="view">
+    <!--Tuit visibility-->
+    <select id="visibility" name="visibility">
         <option selected value="EVERYONE">Everyone can reply</option>
         <option value="FOLLOWING">People you follow</option>
         <option value="MENTIONED">Only people you mention</option>
@@ -24,6 +27,7 @@
 
     <hr>
 
+    <!--Tuit attachment & send-->
     <input type="file"/>
     <button>Tuit</button>
 
