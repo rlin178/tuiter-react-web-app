@@ -75,8 +75,8 @@
     margin-top: 12px;
     width: 504px;
     height: 264px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     padding: 0px;
     line-height: normal;
 }
@@ -85,7 +85,31 @@
     padding: 12px;
     width: 480px;
     margin-top: 0px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     line-height: normal;
+}
+
+.wd-reactions {
+    margin-top: 12px;
+}
+
+.wd-reaction-column {
+    width: 25%;
+    float: left;
+    padding-bottom: 12px;
+}
+
+.wd-fg-color-red {
+    color: red;
+}
+
+.wd-fg-color-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-reaction-number {
+    padding-left: 12px;
+    font-family: sans-serif;
+    display: inline;
 }

@@ -66,13 +66,6 @@
     padding-left: 15px;
 }
 
-.wd-gear-icon {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    top: 5px
-}
-
 .wd-tab-selected-outer {
     padding-right: 16px;
     padding-left: 16px;
@@ -91,6 +84,12 @@
     border-bottom: solid;
     border-bottom-color: #1aa1f2;
     border-width: medium;
+}
+
+.wd-gear-color {
+    color: #1aa1f2;
+    position: relative;
+    top: 6px;
 }
 
 .wd-tab {
