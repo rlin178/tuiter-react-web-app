@@ -1,0 +1,28 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-left-padding {
+    position: relative;
+    margin-left: 16px;
+    margin-right: 10px;
+    min-width: 600px;
+}
+
+.wd-top-margin {
+    margin-top: 12px;
+}
+
+.wd-border-gray {
+    border-style: solid;
+    border-color: rgb(47,51,54);
+    border-width: 1px;
+}
+
+.wd-width {
+    width: 566px;
+}
