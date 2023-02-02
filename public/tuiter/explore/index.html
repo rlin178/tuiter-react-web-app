@@ -7,73 +7,59 @@
           rel="stylesheet"/>
     <link href="../styles.css"
           rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
-<body class="wd-bg-color-black wd-width">
-    <div class="wd-left-padding wd-border-gray wd-top-width">
-        <div class="wd-left-padding wd-top-margin wd-right-padding">
-            <div class="wd-search-bg">
-                <i class="fa fa-search wd-search-color"></i>
-                <input class="wd-search-bar wd-fg-color-white" placeholder="Search Tuiter"/>
+<body>
+    <div class="container align-content-center pt-2">
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fab fa-twitter"></i></li>
+                    <li class="list-group-item">
+                        <i class="fas fa-home"></i>
+                        <div class="d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block ps-2">Home</div>
+                    </li>
+                    <li class="list-group-item active">
+                        <i class="fas fa-hashtag"></i>
+                        <div class="d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block ps-2">Explore</div>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-bell pe-2"></i>
+                        <div class="d-sm-none d-md-none d-lg-none d-xl-inline-block d-xl-inline-block ps-1">Notifications</div>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-envelope pe-2"></i>
+                        <div class="d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block ps-1">Messages</div>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-bookmark"></i>
+                        <div class="d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block ps-2">Bookmarks</div>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-list"></i>
+                        <div class="d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block ps-2">Lists</div>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-user"></i>
+                        <div class="d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block ps-2">Profile</div>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <div class="d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block ps-2">More</div>
+                    </li>
+                </ul>
+                <button class="btn btn-primary w-100 mt-2 rounded-pill">
+                    Tweet
+                </button>
             </div>
-            <a class="wd-search-side wd-fg-color-white" href="explore-settings.html">
-                <i class="fa fa-gear wd-gear-color fa-lg"></i>
-            </a>
-            <br>
-            <div class="wd-fg-color-white">
-                <a href="for-you.html" class="wd-tab-selected">For you</a>
-                <a href="trending.html" class="wd-tab">Trending</a>
-                <a href="covid-19.html" class="wd-tab">COVID-19</a>
-                <a href="news.html" class="wd-tab">News</a>
-                <a href="sports.html" class="wd-tab">Sports</a>
-                <a href="entertainment.html" class="wd-tab">Entertainment</a>
+            <div class="col-sm-7 col-md-10 col-lg-6 col-xl-6 col-xxl-6 bg-primary text-white">
+                <h3>Column B</h3>
+            </div>
+            <div class="d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block col-lg-4 col-xl-4 col-xxl-4 bg-danger text-white">
+                <h3>Column C</h3>
             </div>
         </div>
     </div>
-    <div class="wd-left-padding wd-trending wd-border-gray">
-        <div class="wd-trending-info">Trending in Science</div>
-        <div class="wd-trending-phrase">DNA</div>
-        <div class="wd-trending-info">13.3K Tweets</div>
-    </div>
-    <div class="wd-left-padding wd-trending wd-border-gray">
-        <div class="wd-text">
-            <div class="wd-trending-info">Weather • LIVE</div>
-            <div class="wd-trending-phrase">Weather: News and updates for the weather in Massachusetts</div>
-        </div>
-        <img class="wd-trending-image"
-             src="https://img.freepik.com/premium-vector/weather-cartoon-set_52422-74.jpg"/>
-    </div>
-    <div class="wd-left-padding wd-trending wd-border-gray">
-        <div class="wd-text">
-            <div class="wd-trending-author">Chocolate Chef</div>
-            <div class="wd-trending-date"> • Today</div>
-            <div class="wd-trending-phrase">What chocolates to get for Valentine's Day</div>
-        </div>
-        <img class="wd-trending-image"
-             src="https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_%28blue_background%29.jpg"/>
-    </div>
-    <div class="wd-left-padding wd-trending wd-border-gray">
-        <div class="wd-text">
-            <div class="wd-trending-info">Oscars • LIVE</div>
-            <div class="wd-trending-phrase">Oscars: View the latest Oscar winners</div>
-        </div>
-        <img class="wd-trending-image"
-             src="https://pyxis.nymag.com/v1/imgs/39a/dbb/1545fbdb0588fdc7fc3740a4c64dde1543-04-oscars.rsquare.w330.jpg"/>
-    </div>
-    <div class="wd-left-padding wd-trending wd-border-gray">
-        <div class="wd-trending-info">Mascots • Trending</div>
-        <div class="wd-trending-phrase">Pompompurin</div>
-        <div class="wd-trending-info">993.7K Tweets</div>
-    </div>
-    <div class="wd-left-padding wd-trending wd-border-gray">
-        <div class="wd-text">
-            <div class="wd-trending-author">Santa Times</div>
-            <div class="wd-trending-date"> • Yesterday</div>
-            <div class="wd-trending-phrase">Snowman destroyed during heat wave</div>
-        </div>
-        <img class="wd-trending-image"
-             src="https://upload.wikimedia.org/wikipedia/commons/3/36/A_Big_Puddle_-_geograph.org.uk_-_296040.jpg"/>
-    </div>
-    <a href="../navigation.html" class="wd-back-link">Back to Navigation</a>
 </body>
 </html>
