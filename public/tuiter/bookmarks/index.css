@@ -16,8 +16,15 @@
     padding-bottom: 12px;
 }
 
+.wd-left-padding-bookmark {
+    position: relative;
+    margin-left: 16px;
+    margin-right: 10px;
+    min-width: 598px;
+}
+
 .wd-right-padding {
-    padding-right: 2px;
+    padding-right: 0px;
 }
 
 .wd-picture-container {
@@ -36,7 +43,8 @@
 
 .wd-tuit-content {
     display: inline-block;
-    padding-left: 64px;
+    padding-left: 60px;
+    padding-right: 16px;
 }
 
 .wd-content-width {
@@ -67,7 +75,7 @@
 }
 
 .wd-link {
-    width: 504px;
+    width: 506px;
     line-height: 0;
 }
 
@@ -98,6 +106,12 @@
     width: 25%;
     float: left;
     padding-bottom: 12px;
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+.wd-reaction-pair {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
 }
 
 .wd-fg-color-red {
