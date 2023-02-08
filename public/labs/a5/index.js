@@ -135,6 +135,7 @@ for (let i=0; i<stringArray1.length; i++) {
 console.log("Map function");
 const squares = numberArray1.map(square);
 const cubes = numberArray1.map(a => a * a * a);
+console.log(numberArray1);
 console.log(squares);
 console.log(cubes);
 
@@ -159,6 +160,7 @@ const evenNumbers = numberArray1
     .filter(a => a % 2 === 0);
 const oddNumbers = numberArray1
     .filter(a => a % 2 !== 0);
+console.log(numberArray1);
 console.log(numbersGreaterThan2);
 console.log(evenNumbers);
 console.log(oddNumbers)
