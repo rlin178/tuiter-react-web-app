@@ -1,0 +1,157 @@
+/*.wd-bg-color-black {*/
+/*    background-color: black;*/
+/*}*/
+
+/*.wd-fg-color-white {*/
+/*    color: white;*/
+/*}*/
+
+/*.wd-left-padding {*/
+/*    position: relative;*/
+/*    margin-left: 16px;*/
+/*    margin-right: 10px;*/
+/*    min-width: 600px;*/
+/*}*/
+
+.wd-right-padding {
+    padding-right: 2px;
+}
+
+/*.wd-top-margin {*/
+/*    margin-top: 12px;*/
+/*}*/
+
+/*.wd-border-gray {*/
+/*    border-style: solid;*/
+/*    border-color: rgb(47,51,54);*/
+/*    border-width: 1px;*/
+/*}*/
+
+.wd-top-width {
+    width: 632px;
+}
+
+.wd-search-bg {
+    background-color: #23262a;
+    border-radius: 20px;
+    border-width: 0px;
+    /*padding-top: 8px;*/
+    /*padding-bottom: 8px;*/
+    /*padding-left: 20px;*/
+    width: 90%;
+    display: inline-block;
+}
+
+.wd-search-bar {
+    background-color: #23262a;
+    border-radius: 20px;
+    border-width: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    width: 80%;
+}
+
+.wd-search-side {
+    float: right;
+    display: inline-block;
+}
+
+.wd-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    top: 5px;
+    padding-left: 15px;
+}
+
+.wd-tab-selected-outer {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.wd-tab-selected {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-right: 16px;
+    display: inline-block;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #1aa1f2;
+    font-weight: bold;
+    border-bottom: solid;
+    border-bottom-color: #1aa1f2;
+    border-width: medium;
+}
+
+.wd-gear-color {
+    color: #1aa1f2;
+    position: relative;
+    top: 6px;
+}
+
+.wd-search-color {
+    color: #6e767d;
+    position: relative;
+    left: 12px;
+}
+
+.wd-tab {
+    padding: 16px;
+    display: inline-block;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #6e767d;
+    font-weight: bold;
+}
+
+.wd-trending {
+    padding: 16px;
+
+}
+
+.wd-text {
+    display: inline-block;
+    height: 100px
+}
+
+.wd-trending-info{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.wd-trending-phrase{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.wd-trending-image{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    display: inline-block;
+}
+
+.wd-trending-author{
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline;
+}
+
+.wd-trending-date{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-family: sans-serif;
+    display: inline;
+}
