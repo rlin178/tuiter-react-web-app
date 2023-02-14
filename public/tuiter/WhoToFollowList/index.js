@@ -21,5 +21,4 @@ export function whoToFollowListComponent() {
     `);
 }
 
-// to test with html, must change who.js to have extra "../" before every path name
 whoToFollowListComponent();

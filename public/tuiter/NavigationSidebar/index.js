@@ -1,5 +1,6 @@
 const NavigationSidebar = () => {
     return(`
+    <!-- List of users -->
    <div class="list-group">
      <a class="list-group-item" href="/">
        <i class="fab fa-twitter"></i></a>
@@ -38,8 +39,9 @@ const NavigationSidebar = () => {
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
    </div>
+    <!--   Tuit button -->
    <div class="d-grid mt-2">
-     <a href="tweet.html"
+     <a href="../tuit.html"
         class="btn btn-primary btn-block rounded-pill">
         Tuit</a>
    </div>
