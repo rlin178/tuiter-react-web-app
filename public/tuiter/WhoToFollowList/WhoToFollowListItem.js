@@ -30,7 +30,7 @@ export function whoToFollowListItemComponent(who) {
 }
 
 whoToFollowListItemComponent({
-        avatarIcon: '../../../images/virgin.png',
+        avatarIcon: '../../images/virgin.png',
         userName: 'Virgin Galactic',
         handle: 'virgingalactic',
     }

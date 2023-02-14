@@ -46,3 +46,11 @@ const ExploreComponent = () => {
     `);
 }
 export default ExploreComponent;
+
+export function exploreComponent() {
+    $('#wd-explore-component').append(`
+        ${ExploreComponent()}
+    `);
+}
+
+exploreComponent();
