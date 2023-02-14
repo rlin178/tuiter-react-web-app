@@ -40,7 +40,7 @@ const ExploreComponent = () => {
            <!--Image-->
             <div class="position-relative">
                 <img class="img-fluid pt-2" src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg"/>
-                <p class="position-absolute text-white bottom-0 start-0 m-2 mb-1 fs-2 fw-bold">SpaceX's Starship </p>
+                <p class="position-absolute text-white bottom-0 start-0 m-2 mb-1 fs-3 fw-bold">SpaceX's Starship </p>
             </div>
            ${PostSummaryList()}
     `);
