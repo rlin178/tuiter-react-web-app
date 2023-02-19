@@ -14,7 +14,7 @@ const ExploreComponent = () => {
                     </div>
                 </div>
                 <div class="col-1 p-0">
-                    <a class="float-end" href="explore.settings.html">
+                    <a class="float-end" href="explore_settings.html">
                         <i class="fas fa-cog fa-lg text-primary"></i>
                     </a>
                 </div>

@@ -12,19 +12,27 @@ const ExploreComponent = () => {
                        wd-nudge-up"></i>
                 </div>
                 <div className="col-1">
-                    <i className="wd-bottom-4 text-primary float-end bi
-                       bi-gear-fill fs-2 position-relative"></i>
+                    <a href="explore-settings.html">
+                        <i className="wd-bottom-4 text-primary float-end bi
+                           bi-gear-fill fs-2 position-relative"></i>
+                    </a>
                 </div>
             </div>
             <ul className="nav nav-pills mb-2">
                 <li className="nav-item">
-                    <a className="nav-link active">For You</a>
+                    <a className="nav-link active" href="for-you.html">For You</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Trending</a>
+                    <a className="nav-link" href="trending.html">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">News</a>
+                    <a className="nav-link" href="news.html">News</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li className="nav-item d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                    <a className="nav-link" href="entertainment.html">Entertainment</a>
                 </li>
             </ul>
             <div className="position-relative mb-2">
