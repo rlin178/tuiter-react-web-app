@@ -1,5 +1,4 @@
 import React from "react";
-import tuitStats from "./tuit-stats";
 import TuitStats from "./tuit-stats";
 
 const TuitItem = (
@@ -20,13 +19,14 @@ const TuitItem = (
         }
     }
 ) => {
+
     return(
         <li className="list-group-item container-fluid pe-0">
             <div className="row me-0 pe-0">
-                <div className="col-2 col-md-1">
+                <div className="col-2 col-md-1 pt-1">
                     <img className="rounded-circle" height={48} src={`/images/${tuit.image}`}/>
                 </div>
-                <div className="col-9 col-md-10 ms-2 ps-sm-1 ps-md-4 ps-xxl-3 pe-0">
+                <div className="col-9 col-md-10 ms-2 ps-sm-1 ps-md-4 ps-xxl-3 pe-0 pt-1">
                     <div>
                         <span className="fw-bold">{tuit.userName} </span>
                         <span className="text-secondary">{tuit.handle} • {tuit.time}</span>
