@@ -4,6 +4,7 @@ import TuitList from "../tuits";
 const HomeComponent = () => {
     return(
         <>
+            <h2>Home</h2>
             <TuitList/>
         </>
     );
